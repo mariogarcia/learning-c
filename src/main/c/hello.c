@@ -1,11 +1,5 @@
-#include <stdio.h>
-
 main() {
-    int num;
-    num = 1;
 
-    printf("Amazing Dude!\n");
-    printf("Mi number is %d because is the first\n", num);
-
+    print_ascii();
     return 0;
 }
