@@ -1,6 +1,7 @@
 #include "ascii.h"
+#include "simple.h"
 
 main() {
-    print_ascii();
+    printPeople();
     return 0;
 }

@@ -4,11 +4,13 @@ model {
     components {
         // libraries
         ascii(NativeLibrarySpec)
+        pointers(NativeLibrarySpec)
 
         // executables
         main(NativeExecutableSpec) {
             sources {
                 c.lib library: 'ascii'
+                c.lib library: 'pointers'
             }
         }
     }
